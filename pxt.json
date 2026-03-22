@@ -5,7 +5,8 @@
     "dependencies": {
         "device": "*",
         "game-building-session-tutorials-2024": "github:Code-Ninjas-Home-Office/game-building-session-tutorials-2024",
-        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0"
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "animation": "*"
     },
     "files": [
         "main.blocks",

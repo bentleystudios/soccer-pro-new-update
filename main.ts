@@ -4,13 +4,13 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(ball, 0, 0)
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Player, function (sprite, otherSprite) {
-    effects.confetti.startScreenEffect(1000)
+    effects.confetti.startScreenEffect(500)
     resetPlayers()
-    info.changeScoreBy(1)
+    info.changeScoreBy(2)
     music.play(music.melodyPlayable(music.jumpUp), music.PlaybackMode.InBackground)
 })
 info.onCountdownEnd(function () {
-    if (info.score() >= 4) {
+    if (info.score() >= 8) {
         game.setGameOverEffect(true, effects.confetti)
         game.gameOver(true)
     } else {
