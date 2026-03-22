@@ -1,5 +1,6 @@
 {
     "name": "Soccer Pro! (NEW UPDATE)",
+    "version": "0.0.1",
     "description": "fun soccer game made by bentley studios",
     "dependencies": {
         "device": "*",
